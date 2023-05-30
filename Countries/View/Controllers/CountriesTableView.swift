@@ -11,7 +11,7 @@ class CountriesTableView: UIViewController {
 
     let tableView: UITableView = {
         let tableView = UITableView()
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableView.register(CountriesTableViewCell.self, forCellReuseIdentifier: CountriesTableViewCell.id)
         return tableView
     }()
     
@@ -37,8 +37,9 @@ extension CountriesTableView: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-        cell.textLabel?.text = "Merhaba Dünya"
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: CountriesTableViewCell.id, for: indexPath) as? CountriesTableViewCell else { return UITableViewCell()}
+        
+        cell.setUIElements(image: "person.fill", countryName: "Türkiye", descriptionName: "Türkiye üç kıtaya bağlantı olan önemli bir coğrafyadır.")
         return cell
     }
     

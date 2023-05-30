@@ -14,6 +14,7 @@
 		7B08063F2A25403A003D1743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B08063D2A25403A003D1743 /* LaunchScreen.storyboard */; };
 		7B08064E2A2548E5003D1743 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08064D2A2548E5003D1743 /* CountriesTableViewCell.swift */; };
 		7B0806502A2549C2003D1743 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B08064F2A2549C2003D1743 /* Extensions.swift */; };
+		7BA136432A261A13005DF0B8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA136422A261A13005DF0B8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7B0806402A25403A003D1743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B08064D2A2548E5003D1743 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
 		7B08064F2A2549C2003D1743 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7BA136422A261A13005DF0B8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				7B08064F2A2549C2003D1743 /* Extensions.swift */,
+				7BA136422A261A13005DF0B8 /* Constants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B0806502A2549C2003D1743 /* Extensions.swift in Sources */,
+				7BA136432A261A13005DF0B8 /* Constants.swift in Sources */,
 				7B0806372A254039003D1743 /* CountriesTableView.swift in Sources */,
 				7B0806332A254039003D1743 /* AppDelegate.swift in Sources */,
 				7B08064E2A2548E5003D1743 /* CountriesTableViewCell.swift in Sources */,
